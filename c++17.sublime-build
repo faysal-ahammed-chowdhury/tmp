@@ -1,0 +1,6 @@
+{
+  "shell_cmd": "g++ -std=c++17 -o \"$file_base_name\" \"$file\" && timeout 5.5s ./\"$file_base_name\" < //home/faysal-ahammed-chowdhury/Dropbox/CP/Submissions/Others/Codes/input.txt > //home/faysal-ahammed-chowdhury/Dropbox/CP/Submissions/Others/Codes/output.txt",
+  "file_regex": "^(.+?):([0-9]+):([0-9]+)?: (.*)$",
+  "working_dir": "${file_path}",
+  "selector": "source.c, source.c++"
+}
