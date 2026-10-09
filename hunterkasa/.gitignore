@@ -1,0 +1,17 @@
+# Compiled binaries and libraries
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+
+# Caches and editor/extension artifacts
+.cache/
+.vscode/
+tempCodeRunnerFile.*
+
+# Generator and stress-testing I/O
+input*.txt
+output*.txt
+distance*.out
